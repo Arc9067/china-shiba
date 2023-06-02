@@ -19,7 +19,7 @@ export default {
         Japanese_3017: ["AKUMARU", "sans-serif"],
       },
       colors: {
-        primary: "#9B2524",
+        primary: "#FE6BA2",
         text: "#F3E4D2",
         secondary: "#FA9C2A",
         ascent: "#000074",
