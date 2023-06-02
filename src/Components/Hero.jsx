@@ -28,11 +28,11 @@ const Hero = () => {
           <p className="text-text para  font-mono capitalize"></p>
           <div className="flex items-center gap-3 flex-wrap justify-center lg:justify-start">
             <a
-              href="https://twitter.com/chineseshibaeth"
+              href="https://dexscreener.com/ethereum/0xf102d137e06a03c6fe798db4b8844de5d59185f7"
               target="_blank"
               className="bg-text flex justify-center items-center gap-2 px-8 py-3 font-Audiowide capitalize font-bold hover:bg-black hover:text-text"
             >
-              <FaTwitter /> buy now
+              buy now
             </a>
             <a
               href="https://t.me/ChineseShibaEth"
