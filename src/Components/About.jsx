@@ -3,7 +3,7 @@ import { gsap } from "gsap";
 
 const About = () => {
   useEffect(() => {
-    gsap.to(".h1", {
+    const h1 = gsap.to(".h1", {
       text: `about china shiba`,
       ease: "power1.in",
       duration: 2,
@@ -12,11 +12,16 @@ const About = () => {
         toggleActions: "play none none none",
       },
     });
-    gsap.to(".about-para", {
+    const h2 = gsap.to(".about-para", {
       text: `China Shiba (CHINA) is a token created to celebrate the fun and playful side of the cryptocurrency world. It is designed to provide an entertaining experience for users while ensuring transparency, fairness, and community-driven growth. By combining the interactive mobile game Shiba Run and unique tokenomics, China Shiba aims to captivate users and create a vibrant ecosystem.`,
       ease: "power1.in",
       duration: 2,
     });
+
+    return () => {
+      // Cancel the animation
+      gsap.killTweensOf();
+    };
   }, []);
   return (
     <section className="py-[50px] about w-full bg-text text-primary">
