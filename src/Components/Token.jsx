@@ -19,7 +19,7 @@ const Token = () => {
       <div className="container text-center ">
         <h1 className="token-h1 text-5xl md:text-6xl capitalize font-Japanese_3017"></h1>
         <ul className="flex flex-col gap-3 list-disc list-inside text-xs font-mono max-w-[600px] mx-auto">
-          <li className=" capitalize">100,000,000 chinese supply</li>
+          <li className=" capitalize">100,000 chinese supply</li>
           <li className=" capitalize">
             Deflationary Mechanism: A portion of each transaction will be
             burned, reducing the total supply over time and increasing the
