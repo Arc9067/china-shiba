@@ -7,6 +7,7 @@ import About from "./Components/About";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import Token from "./Components/Token";
 import Game from "./Components/Game";
+import Map from "./Components/Map";
 
 const App = () => {
   useEffect(() => {
@@ -25,6 +26,7 @@ const App = () => {
       <About />
       <Token />
       <Game />
+      <Map />
     </div>
   );
 };
