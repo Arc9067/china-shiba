@@ -5,6 +5,7 @@ import { gsap } from "gsap";
 import { TextPlugin } from "gsap/TextPlugin";
 import About from "./Components/About";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
+import Token from "./Components/Token";
 
 const App = () => {
   useEffect(() => {
@@ -21,6 +22,7 @@ const App = () => {
       {/* <Header /> */}
       <Hero />
       <About />
+      <Token />
     </div>
   );
 };

@@ -41,7 +41,7 @@ const Hero = () => {
             </a>
           </div>
         </div>
-        <img src={Logo} alt="" />
+        <img src={Logo} alt="" className="md:max-w-md w-full lg:ml-auto" />
       </div>
     </section>
   );

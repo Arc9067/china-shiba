@@ -31,7 +31,7 @@ const About = () => {
           <h1 className="h1 text-4xl md:text-6xl capitalize font-Japanese_3017"></h1>
           <p className="text-primary about-para  font-mono mt-5"></p>
         </div>
-        <img src={Logo2} alt="" />
+        <img src={Logo2} alt="" className="md:max-w-md w-full lg:ml-auto" />
       </div>
     </section>
   );
