@@ -10,6 +10,11 @@ const App = () => {
   useEffect(() => {
     gsap.registerPlugin(TextPlugin);
     gsap.registerPlugin(ScrollTrigger);
+
+    return () => {
+      // Cancel the animation
+      gsap.killTweensOf();
+    };
   }, []);
   return (
     <div className="min-h-screen w-full relative bg-primary">
