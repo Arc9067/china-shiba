@@ -5,7 +5,7 @@ import { FaTwitter } from "react-icons/fa";
 import Logo from "../assets/logo.png";
 
 const Hero = () => {
-  useLayoutEffect(() => {
+  useEffect(() => {
     gsap.timeline().to(".header", {
       text: "China Shiba (CHINA) - The Hilariously Light-Hearted Meme Token",
       ease: "power1.in",
