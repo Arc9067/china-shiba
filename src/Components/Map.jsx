@@ -47,7 +47,7 @@ const Map = () => {
                 Development and launch of Shiba Run game for iPhone
               </li>
               <li className="capitalize">
-                Integration of in-game rewards with CHINA tokens
+                Integration of in-game rewards with chinese tokens
               </li>
               <li className="capitalize">
                 Partnership with popular influencers and content creators

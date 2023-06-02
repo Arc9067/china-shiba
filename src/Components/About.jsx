@@ -5,7 +5,7 @@ import Logo2 from "../assets/logo2.png";
 const About = () => {
   useEffect(() => {
     const h1 = gsap.to(".h1", {
-      text: `about china shiba`,
+      text: `about chinese shiba`,
       ease: "power1.in",
       duration: 2,
       scrollTrigger: {
@@ -14,7 +14,7 @@ const About = () => {
       },
     });
     const h2 = gsap.to(".about-para", {
-      text: `China Shiba (CHINA) is a token created to celebrate the fun and playful side of the cryptocurrency world. It is designed to provide an entertaining experience for users while ensuring transparency, fairness, and community-driven growth. By combining the interactive mobile game Shiba Run and unique tokenomics, China Shiba aims to captivate users and create a vibrant ecosystem.`,
+      text: `chinese Shiba (chinese) is a token created to celebrate the fun and playful side of the cryptocurrency world. It is designed to provide an entertaining experience for users while ensuring transparency, fairness, and community-driven growth. By combining the interactive mobile game Shiba Run and unique tokenomics, chinese Shiba aims to captivate users and create a vibrant ecosystem.`,
       ease: "power1.in",
       duration: 2,
     });

@@ -15,7 +15,7 @@ const Footer = () => {
       </div>
       <div className="container mx-auto text-center mt-10">
         <p className="text-sm capitalize">
-          © 2023 china shiba. All rights reserved.
+          © 2023 chinese shiba. All rights reserved.
         </p>
       </div>
     </footer>

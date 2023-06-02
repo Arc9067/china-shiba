@@ -7,7 +7,7 @@ import Logo from "../assets/logo.png";
 const Hero = () => {
   useEffect(() => {
     gsap.timeline().to(".header", {
-      text: "China Shiba (CHINA) - The Hilariously Light-Hearted Meme Token",
+      text: "chinese Shiba (chinese) - The Hilariously Light-Hearted Meme Token",
       ease: "power1.in",
       duration: 2,
       repeat: 2,
@@ -15,7 +15,7 @@ const Hero = () => {
       repeatDelay: 0.4,
     });
     gsap.to(".para", {
-      text: `China Shiba (CHINA) is a humorous and light-hearted meme token that aims to bring joy and entertainment to the cryptocurrency community.`,
+      text: `chinese Shiba (chinese) is a humorous and light-hearted meme token that aims to bring joy and entertainment to the cryptocurrency community.`,
       ease: "power1.in",
       duration: 2,
     });

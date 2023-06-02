@@ -40,7 +40,7 @@ const Header = () => {
             alt=""
             className="w-[3rem] object-cover bg-secondary rounded-full"
           />
-          china shiba
+          chinese shiba
         </a>
 
         <div className="py-4 px-7 justify-between items-center hidden md:flex gap-3 bg-black text-white">
