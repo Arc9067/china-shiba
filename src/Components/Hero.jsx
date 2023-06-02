@@ -24,7 +24,7 @@ const Hero = () => {
     <section className="pt-[150px] md:py-[100px] w-full relative">
       <div className="container grid lg:grid-cols-2 justify-between items-center">
         <div className="flex gap-10 flex-col text-center lg:text-start">
-          <h1 className="text-5xl header md:text-6xl font-Japanese_3017 text-text"></h1>
+          <h1 className="text-5xl header md:text-6xl font-Japanese_3017 text-text capitalize"></h1>
           <p className="text-text para  font-mono capitalize"></p>
           <div className="flex items-center gap-3 flex-wrap justify-center lg:justify-start">
             <a
