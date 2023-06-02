@@ -18,7 +18,7 @@ const App = () => {
   }, []);
   return (
     <div className="min-h-screen w-full relative bg-primary">
-      <Header />
+      {/* <Header /> */}
       <Hero />
       <About />
     </div>
