@@ -34,7 +34,8 @@ const Hero = () => {
               <FaTwitter /> buy now
             </a>
             <a
-              href=""
+              href="https://t.me/ChineseShibaEth"
+              target="_blank"
               className="bg-text flex justify-center items-center gap-2 px-8 py-3 font-Audiowide capitalize font-bold hover:bg-black hover:text-text"
             >
               <FaTelegramPlane /> telegram

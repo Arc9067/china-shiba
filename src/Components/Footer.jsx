@@ -9,7 +9,11 @@ const Footer = () => {
         <a href="" className="text-5xl">
           <AiOutlineTwitter />
         </a>
-        <a href="" className="text-5xl">
+        <a
+          href="https://t.me/ChineseShibaEth"
+          target="_blank"
+          className="text-5xl"
+        >
           <TbBrandTelegram />
         </a>
       </div>

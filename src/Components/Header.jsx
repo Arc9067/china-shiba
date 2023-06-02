@@ -45,7 +45,8 @@ const Header = () => {
 
         <div className="py-4 px-7 justify-between items-center hidden md:flex gap-3 bg-black text-white">
           <a
-            href=""
+            href="https://t.me/ChineseShibaEth"
+            target="_blank"
             className="text-4xl h-[48px] w-[48px] flex items-center justify-center rounded-full bg-secondary hover:bg-primary"
           >
             <FaTelegramPlane />
