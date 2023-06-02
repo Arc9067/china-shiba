@@ -28,7 +28,8 @@ const Hero = () => {
           <p className="text-text para  font-mono capitalize"></p>
           <div className="flex items-center gap-3 flex-wrap justify-center lg:justify-start">
             <a
-              href=""
+              href="https://twitter.com/chineseshibaeth"
+              target="_blank"
               className="bg-text flex justify-center items-center gap-2 px-8 py-3 font-Audiowide capitalize font-bold hover:bg-black hover:text-text"
             >
               <FaTwitter /> buy now

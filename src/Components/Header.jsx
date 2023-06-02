@@ -52,7 +52,8 @@ const Header = () => {
             <FaTelegramPlane />
           </a>
           <a
-            href=""
+            href="https://twitter.com/chineseshibaeth"
+            target="_blank"
             className="text-4xl  h-[48px] w-[48px] flex items-center justify-center rounded-full bg-secondary hover:bg-primary"
           >
             <RxTwitterLogo />

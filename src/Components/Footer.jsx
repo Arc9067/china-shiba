@@ -6,7 +6,11 @@ const Footer = () => {
   return (
     <footer className="bg-text text-primary p-4">
       <div className="container mx-auto flex items-center justify-center">
-        <a href="" className="text-5xl">
+        <a
+          href="https://twitter.com/chineseshibaeth"
+          target="_blank"
+          className="text-5xl"
+        >
           <AiOutlineTwitter />
         </a>
         <a
