@@ -29,7 +29,7 @@ const About = () => {
       <div className="container grid justify-between items-center lg:grid-cols-2 gap-10">
         <div className="">
           <h1 className="h1 text-4xl md:text-6xl capitalize font-Japanese_3017"></h1>
-          <p className="text-primary about-para  font-mono mt-5"></p>
+          <p className="text-primary about-para  font-mono mt-5 capitalize"></p>
         </div>
         <img src={Logo2} alt="" className="md:max-w-md w-full lg:ml-auto" />
       </div>
