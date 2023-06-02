@@ -8,6 +8,7 @@ import { ScrollTrigger } from "gsap/ScrollTrigger";
 import Token from "./Components/Token";
 import Game from "./Components/Game";
 import Map from "./Components/Map";
+import Footer from "./Components/Footer";
 
 const App = () => {
   useEffect(() => {
@@ -27,6 +28,7 @@ const App = () => {
       <Token />
       <Game />
       <Map />
+      <Footer />
     </div>
   );
 };
