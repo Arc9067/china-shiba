@@ -1,4 +1,6 @@
 import React from "react";
+import video from "../assets/intro.mp4";
+import ReactPlayer from "react-player";
 
 const Game = () => {
   return (
@@ -16,6 +18,10 @@ const Game = () => {
             game is designed to be intuitive, engaging, and suitable for players
             of all ages.
           </p>
+        </div>
+
+        <div className="w-full">
+          <ReactPlayer url={video} controls width="100%" />
         </div>
       </div>
     </section>
